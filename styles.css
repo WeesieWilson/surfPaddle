@@ -6,7 +6,7 @@ body{
 
 .wrapper{
   margin: 0 auto;
-  width: 1000px;
+  width: 80%;
 }
 
 /*HEADER STYLES*/
@@ -68,7 +68,6 @@ body{
 /*CONTENT STYLES*/
 .content-container{
   background-color: grey;
-  height: 800px;
   width: 100%;
 }
 
@@ -76,7 +75,7 @@ body{
 .aside-container{
   background-color: lightyellow;
   width: 65%;
-  height: 800px;
+  float: left;
 }
 
 .aside-container h2{
@@ -105,7 +104,7 @@ body{
 }
 
 .first-paragraph{
-  margin-top: 24px;
+  margin-top: 58px;
 }
 .big-text{
   border-left: grey solid 1px;
@@ -144,4 +143,52 @@ body{
   height: 29px;
   width: 22%;
   background-color: black;
+}
+
+/*SECTION STYLES*/
+.section-container{
+  background-color: lightyellow;
+  width: 35%;
+  float:right;
+}
+
+.profile-container{
+  text-align: center;
+  margin-top: 59px;
+}
+
+.profile-picture{
+  background-color: lightgrey;
+  border-radius: 100px;
+  width: 74px;
+  height: 74px;
+  margin-bottom: 7px;
+}
+
+.profile-name{
+  text-transform: uppercase;
+  margin-bottom: 1px;
+}
+
+.facebook{
+  border-right: 1px grey solid;
+  display: inline;
+  padding-left: 7px;
+}
+
+.instagram{
+  display: inline;
+  padding-left: 7px;
+}
+.sidebar{
+  text-emphasis: center;
+  text-align: center;
+  margin-top: 33px;
+
+}
+.sidebar-img{
+  height: 260px;
+  width: 269px;
+  background-color: lightgreen;
+  text-align: center;
 }
