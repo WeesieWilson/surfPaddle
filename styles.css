@@ -15,9 +15,22 @@ body{
   background-repeat: no-repeat;
   background-size: cover;
   background-position-y: -288px;
-  opacity: 1;
+  /*opacity: 1;*/
   width: 100%;
   height: 400px;
+  position: relative;
+}
+
+.overlay{
+  position: absolute;
+  background-color: white;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  width: 100%;
+  height: 100%;
+  opacity: .5;
 }
 
 .logo-container{
@@ -78,15 +91,15 @@ body{
   width: 15px;
 }
 
-.overlay{
+/*.overlay{
   background-color: #549431;
   height: 400px;
   opacity: 0.2;
-}
+}*/
 
 /*CONTENT STYLES*/
 .content-container{
-  background-color: grey;
+  /*background-color: grey;*/
   width: 100%;
 }
 
@@ -151,14 +164,14 @@ background-position-y: -4px;
 .comment-container{
   width: 22%;
   height: 29px;
-  background-color: black;
+  background-color: lightgrey;
   display:inline-block;
 }
 
 .icon{
   width: 25%;
   height: 29px;
-  background-color: lightgreen;
+  background-color: grey;
 }
 
 .read-container{
@@ -185,8 +198,14 @@ background-position-y: -4px;
 .profile-container{
   text-align: center;
   margin-top: 59px;
+  position: relative;
 }
-
+.overlay-profile{
+  border-radius: 100%;
+  width: 74px;
+  height: 74px;
+  position: absolute;
+}
 .profile-picture{
   /*background-color: lightgrey;*/
   background-image: url(profile.jpg);
@@ -198,6 +217,7 @@ background-position-y: -4px;
   height: 74px;
   margin-bottom: 7px;
   margin: 0 auto;
+  position: relative;
 }
 
 .profile-name{
@@ -253,4 +273,67 @@ h3{
 margin-top: 41px;
 color: #146667;
 text-transform: uppercase;
+}
+
+.clear{
+  clear:both;
+}
+
+h5{
+  text-align: center;
+    font-size: 46px;
+    text-transform: uppercase;
+    color: #146667;
+}
+
+.footer-pic-one{
+  display: inline-block;
+  width: 25%;
+  background-color: green;
+  margin-right: -4px;
+  height: 400px;
+  background-image: url(IMG_0937.jpg);
+  background-size: 224%;
+    background-position-x: -97px;
+    background-repeat: no-repeat;
+    background-position-y: -75px;
+}
+
+.footer-pic-two{
+  display: inline-block;
+  width: 25%;
+  background-color: green;
+  margin-right: -4px;
+  height: 400px;
+  background-image: url(ITWL8228.jpg);
+  background-size: 150%;
+    background-position-x: -97px;
+    background-repeat: no-repeat;
+    background-position-y: -184px;
+}
+
+.footer-pic-three{
+  display: inline-block;
+  width: 25%;
+  background-color: green;
+  margin-right: -4px;
+  height: 400px;
+  background-image: url(conan.png);
+  background-size: 119%;
+background-position-x: -46px;
+background-repeat: no-repeat;
+background-position-y: -1px;
+}
+
+.footer-pic-four{
+  display: inline-block;
+  width: 25%;
+  background-color: green;
+  margin-right: -4px;
+  height: 400px;
+  background-image: url(conan_running.png);
+  background-size: 119%;
+background-position-x: -65px;
+background-repeat: no-repeat;
+background-position-y: -4px;
 }
