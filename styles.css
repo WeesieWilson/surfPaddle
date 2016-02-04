@@ -1,6 +1,6 @@
 body{
   width: 100%;
-  font-family: sans-serif;
+  font-family: 'Varela Round', sans-serif;
   font size: 13px;
 }
 
@@ -11,7 +11,13 @@ body{
 
 /*HEADER STYLES*/
 .header-container{
-  background-color: lightblue;
+  /*background-color: lightblue;*/
+  background-image: url(hero-image.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position-y: -288px;
+  opacity: 1;
+
   width: 100%;
   height: 400px;
 }
@@ -22,14 +28,16 @@ body{
 }
 
 .logo-container img{
-  width: 3%;
+  width: 6%;
   display: inline-block;
+  margin-top: 27px;
 }
 
 .logo-container p{
   display: inline-block;
-  font-size: 14px;
+  font-size: 18px;
   vertical-align: middle;
+  margin-top: -19px;
 }
 
 .search-container{
@@ -42,6 +50,7 @@ body{
   text-decoration: none;
   font-size: 14px;
   color: black;
+  padding-right: 14px;
 }
 
 .main-header{
@@ -53,6 +62,7 @@ body{
 .main-header p:first-child{
   font-size: 5em;
   font-weight: bold;
+  color: white;
 }
 
 .main-header p:last-child{
@@ -65,6 +75,12 @@ body{
   width: 15px;
 }
 
+.overlay{
+  background-color: #549431;
+  height: 400px;
+  opacity: 0.2;
+}
+
 /*CONTENT STYLES*/
 .content-container{
   background-color: grey;
@@ -73,7 +89,7 @@ body{
 
 /*ASIDE STYLES*/
 .aside-container{
-  background-color: lightyellow;
+  /*background-color: lightyellow;*/
   width: 65%;
   float: left;
 }
@@ -147,7 +163,7 @@ body{
 
 /*SECTION STYLES*/
 .section-container{
-  background-color: lightyellow;
+  /*background-color: lightyellow;*/
   width: 35%;
   float:right;
 }
@@ -158,11 +174,16 @@ body{
 }
 
 .profile-picture{
-  background-color: lightgrey;
+  /*background-color: lightgrey;*/
+  background-image: url(profile.jpg);
+  background-repeat: no-repeat;
+  background-size: 100%;
+  background-position-y: -9px;
   border-radius: 100px;
   width: 74px;
   height: 74px;
   margin-bottom: 7px;
+  margin: 0 auto;
 }
 
 .profile-name{
@@ -184,11 +205,14 @@ body{
   text-emphasis: center;
   text-align: center;
   margin-top: 33px;
+  margin-left: -60px;
 
 }
 .sidebar-img{
-  height: 260px;
-  width: 269px;
+  height: 337px;
+  width: 295px;
   background-color: lightgreen;
   text-align: center;
+  margin-left: 65px;
+  /*background-image: url(Conan_Paddle.png);*/
 }
